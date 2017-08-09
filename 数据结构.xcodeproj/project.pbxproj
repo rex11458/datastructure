@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3AB94F1F346A060055F10D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB94E1F346A060055F10D /* main.c */; };
+		3D47F76E1F3963C80044B9FE /* sorting.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7551F3963C80044B9FE /* sorting.c */; };
+		3D47F76F1F3963C80044B9FE /* huffmantree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7581F3963C80044B9FE /* huffmantree.c */; };
+		3D47F7701F3963C80044B9FE /* binarytree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7591F3963C80044B9FE /* binarytree.c */; };
+		3D47F7711F3963C80044B9FE /* binarysorttree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F75A1F3963C80044B9FE /* binarysorttree.c */; };
+		3D47F7721F3963C80044B9FE /* minimumtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F75F1F3963C80044B9FE /* minimumtree.c */; };
+		3D47F7731F3963C80044B9FE /* graphsearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7611F3963C80044B9FE /* graphsearch.c */; };
+		3D47F7741F3963C80044B9FE /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7641F3963C80044B9FE /* graph.c */; };
+		3D47F7751F3963C80044B9FE /* stackchain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7671F3963C80044B9FE /* stackchain.c */; };
+		3D47F7761F3963C80044B9FE /* stacklist.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F7691F3963C80044B9FE /* stacklist.c */; };
+		3D47F7771F3963C80044B9FE /* queuechain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F76A1F3963C80044B9FE /* queuechain.c */; };
+		3D47F7781F3963C80044B9FE /* queuelist.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F76C1F3963C80044B9FE /* queuelist.c */; };
+		3D47F78F1F3A9AB60044B9FE /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F78E1F3A9AB60044B9FE /* search.c */; };
+		3DDA7B441F38065300C53F31 /* JosephusProblem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA7B3E1F38065300C53F31 /* JosephusProblem.c */; };
+		3DDA7B451F38065300C53F31 /* JosephusProblemChain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA7B401F38065300C53F31 /* JosephusProblemChain.c */; };
+		3DDA7B4C1F38117B00C53F31 /* linearlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA7B4A1F38117B00C53F31 /* linearlist.c */; };
+		3DDA7B4F1F38130100C53F31 /* linearchain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA7B4D1F38130100C53F31 /* linearchain.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D3AB9491F346A060055F10D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D3AB94B1F346A060055F10D /* 数据结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3AB94E1F346A060055F10D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3D47F7551F3963C80044B9FE /* sorting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sorting.c; sourceTree = "<group>"; };
+		3D47F7561F3963C80044B9FE /* sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorting.h; sourceTree = "<group>"; };
+		3D47F7581F3963C80044B9FE /* huffmantree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = huffmantree.c; sourceTree = "<group>"; };
+		3D47F7591F3963C80044B9FE /* binarytree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = binarytree.c; sourceTree = "<group>"; };
+		3D47F75A1F3963C80044B9FE /* binarysorttree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = binarysorttree.c; sourceTree = "<group>"; };
+		3D47F75B1F3963C80044B9FE /* huffmantree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huffmantree.h; sourceTree = "<group>"; };
+		3D47F75C1F3963C80044B9FE /* binarytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarytree.h; sourceTree = "<group>"; };
+		3D47F75D1F3963C80044B9FE /* binarysorttree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarysorttree.h; sourceTree = "<group>"; };
+		3D47F75F1F3963C80044B9FE /* minimumtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minimumtree.c; sourceTree = "<group>"; };
+		3D47F7601F3963C80044B9FE /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		3D47F7611F3963C80044B9FE /* graphsearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graphsearch.c; sourceTree = "<group>"; };
+		3D47F7621F3963C80044B9FE /* minimumtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minimumtree.h; sourceTree = "<group>"; };
+		3D47F7631F3963C80044B9FE /* graphsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphsearch.h; sourceTree = "<group>"; };
+		3D47F7641F3963C80044B9FE /* graph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graph.c; sourceTree = "<group>"; };
+		3D47F7661F3963C80044B9FE /* queuechain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queuechain.h; sourceTree = "<group>"; };
+		3D47F7671F3963C80044B9FE /* stackchain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stackchain.c; sourceTree = "<group>"; };
+		3D47F7681F3963C80044B9FE /* queuelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queuelist.h; sourceTree = "<group>"; };
+		3D47F7691F3963C80044B9FE /* stacklist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stacklist.c; sourceTree = "<group>"; };
+		3D47F76A1F3963C80044B9FE /* queuechain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queuechain.c; sourceTree = "<group>"; };
+		3D47F76B1F3963C80044B9FE /* stackchain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stackchain.h; sourceTree = "<group>"; };
+		3D47F76C1F3963C80044B9FE /* queuelist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queuelist.c; sourceTree = "<group>"; };
+		3D47F76D1F3963C80044B9FE /* stacklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stacklist.h; sourceTree = "<group>"; };
+		3D47F78D1F3A9AB60044B9FE /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		3D47F78E1F3A9AB60044B9FE /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		3DDA7B3E1F38065300C53F31 /* JosephusProblem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JosephusProblem.c; sourceTree = "<group>"; };
+		3DDA7B3F1F38065300C53F31 /* JosephusProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JosephusProblem.h; sourceTree = "<group>"; };
+		3DDA7B401F38065300C53F31 /* JosephusProblemChain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JosephusProblemChain.c; sourceTree = "<group>"; };
+		3DDA7B411F38065300C53F31 /* JosephusProblemChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JosephusProblemChain.h; sourceTree = "<group>"; };
+		3DDA7B4A1F38117B00C53F31 /* linearlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linearlist.c; sourceTree = "<group>"; };
+		3DDA7B4B1F38117B00C53F31 /* linearlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linearlist.h; sourceTree = "<group>"; };
+		3DDA7B4D1F38130100C53F31 /* linearchain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linearchain.c; sourceTree = "<group>"; };
+		3DDA7B4E1F38130100C53F31 /* linearchain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linearchain.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3AB9481F346A060055F10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3AB9421F346A060055F10D = {
+			isa = PBXGroup;
+			children = (
+				3D3AB94D1F346A060055F10D /* 数据结构 */,
+				3D3AB94C1F346A060055F10D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3AB94C1F346A060055F10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB94B1F346A060055F10D /* 数据结构 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3AB94D1F346A060055F10D /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F78C1F3A9A040044B9FE /* 查找 */,
+				3D3AB9591F346AEE0055F10D /* 线性表 */,
+				3D47F7651F3963C80044B9FE /* 栈和队列 */,
+				3D47F7531F3963C80044B9FE /* 串和数组 */,
+				3D47F7571F3963C80044B9FE /* 树和二叉树 */,
+				3D47F75E1F3963C80044B9FE /* 图 */,
+				3D47F7541F3963C80044B9FE /* 排序 */,
+				3D3AB94E1F346A060055F10D /* main.c */,
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
+		3D3AB9591F346AEE0055F10D /* 线性表 */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA7B4A1F38117B00C53F31 /* linearlist.c */,
+				3DDA7B4B1F38117B00C53F31 /* linearlist.h */,
+				3DDA7B4D1F38130100C53F31 /* linearchain.c */,
+				3DDA7B4E1F38130100C53F31 /* linearchain.h */,
+				3DDA7B3D1F38061C00C53F31 /* 约瑟夫问题 */,
+			);
+			path = "线性表";
+			sourceTree = "<group>";
+		};
+		3D47F7531F3963C80044B9FE /* 串和数组 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "串和数组";
+			sourceTree = "<group>";
+		};
+		3D47F7541F3963C80044B9FE /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F7551F3963C80044B9FE /* sorting.c */,
+				3D47F7561F3963C80044B9FE /* sorting.h */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		3D47F7571F3963C80044B9FE /* 树和二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F7581F3963C80044B9FE /* huffmantree.c */,
+				3D47F7591F3963C80044B9FE /* binarytree.c */,
+				3D47F75A1F3963C80044B9FE /* binarysorttree.c */,
+				3D47F75B1F3963C80044B9FE /* huffmantree.h */,
+				3D47F75C1F3963C80044B9FE /* binarytree.h */,
+				3D47F75D1F3963C80044B9FE /* binarysorttree.h */,
+			);
+			path = "树和二叉树";
+			sourceTree = "<group>";
+		};
+		3D47F75E1F3963C80044B9FE /* 图 */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F75F1F3963C80044B9FE /* minimumtree.c */,
+				3D47F7601F3963C80044B9FE /* graph.h */,
+				3D47F7611F3963C80044B9FE /* graphsearch.c */,
+				3D47F7621F3963C80044B9FE /* minimumtree.h */,
+				3D47F7631F3963C80044B9FE /* graphsearch.h */,
+				3D47F7641F3963C80044B9FE /* graph.c */,
+			);
+			path = "图";
+			sourceTree = "<group>";
+		};
+		3D47F7651F3963C80044B9FE /* 栈和队列 */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F7661F3963C80044B9FE /* queuechain.h */,
+				3D47F7671F3963C80044B9FE /* stackchain.c */,
+				3D47F7681F3963C80044B9FE /* queuelist.h */,
+				3D47F7691F3963C80044B9FE /* stacklist.c */,
+				3D47F76A1F3963C80044B9FE /* queuechain.c */,
+				3D47F76B1F3963C80044B9FE /* stackchain.h */,
+				3D47F76C1F3963C80044B9FE /* queuelist.c */,
+				3D47F76D1F3963C80044B9FE /* stacklist.h */,
+			);
+			path = "栈和队列";
+			sourceTree = "<group>";
+		};
+		3D47F78C1F3A9A040044B9FE /* 查找 */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F78D1F3A9AB60044B9FE /* search.h */,
+				3D47F78E1F3A9AB60044B9FE /* search.c */,
+			);
+			path = "查找";
+			sourceTree = "<group>";
+		};
+		3DDA7B3D1F38061C00C53F31 /* 约瑟夫问题 */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA7B3E1F38065300C53F31 /* JosephusProblem.c */,
+				3DDA7B3F1F38065300C53F31 /* JosephusProblem.h */,
+				3DDA7B401F38065300C53F31 /* JosephusProblemChain.c */,
+				3DDA7B411F38065300C53F31 /* JosephusProblemChain.h */,
+			);
+			name = "约瑟夫问题";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3AB94A1F346A060055F10D /* 数据结构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3AB9521F346A060055F10D /* Build configuration list for PBXNativeTarget "数据结构" */;
+			buildPhases = (
+				3D3AB9471F346A060055F10D /* Sources */,
+				3D3AB9481F346A060055F10D /* Frameworks */,
+				3D3AB9491F346A060055F10D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数据结构";
+			productName = "数据结构";
+			productReference = 3D3AB94B1F346A060055F10D /* 数据结构 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3AB9431F346A060055F10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LiuRex;
+				TargetAttributes = {
+					3D3AB94A1F346A060055F10D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BV4X52Q8EC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D3AB9461F346A060055F10D /* Build configuration list for PBXProject "数据结构" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D3AB9421F346A060055F10D;
+			productRefGroup = 3D3AB94C1F346A060055F10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3AB94A1F346A060055F10D /* 数据结构 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3AB9471F346A060055F10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D47F76F1F3963C80044B9FE /* huffmantree.c in Sources */,
+				3D47F7771F3963C80044B9FE /* queuechain.c in Sources */,
+				3DDA7B451F38065300C53F31 /* JosephusProblemChain.c in Sources */,
+				3D47F7751F3963C80044B9FE /* stackchain.c in Sources */,
+				3D47F78F1F3A9AB60044B9FE /* search.c in Sources */,
+				3D47F7701F3963C80044B9FE /* binarytree.c in Sources */,
+				3DDA7B4C1F38117B00C53F31 /* linearlist.c in Sources */,
+				3D47F7721F3963C80044B9FE /* minimumtree.c in Sources */,
+				3DDA7B4F1F38130100C53F31 /* linearchain.c in Sources */,
+				3D47F7741F3963C80044B9FE /* graph.c in Sources */,
+				3D47F7711F3963C80044B9FE /* binarysorttree.c in Sources */,
+				3D47F7731F3963C80044B9FE /* graphsearch.c in Sources */,
+				3D47F7761F3963C80044B9FE /* stacklist.c in Sources */,
+				3D47F76E1F3963C80044B9FE /* sorting.c in Sources */,
+				3D47F7781F3963C80044B9FE /* queuelist.c in Sources */,
+				3DDA7B441F38065300C53F31 /* JosephusProblem.c in Sources */,
+				3D3AB94F1F346A060055F10D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D3AB9501F346A060055F10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D3AB9511F346A060055F10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D3AB9531F346A060055F10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BV4X52Q8EC;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D3AB9541F346A060055F10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BV4X52Q8EC;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3AB9461F346A060055F10D /* Build configuration list for PBXProject "数据结构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3AB9501F346A060055F10D /* Debug */,
+				3D3AB9511F346A060055F10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3AB9521F346A060055F10D /* Build configuration list for PBXNativeTarget "数据结构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3AB9531F346A060055F10D /* Debug */,
+				3D3AB9541F346A060055F10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3AB9431F346A060055F10D /* Project object */;
+}
